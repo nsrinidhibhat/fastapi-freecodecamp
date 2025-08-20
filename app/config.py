@@ -28,6 +28,6 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int
 
     class Config:
-        env_file = "/Users/srinidhibhat/Srinidhi/Projects/AI Projects/2025/2mnlp_v1/python-api/fastapi/app/.env"
+        env_file = "app/.env"
 
 settings = Settings()
